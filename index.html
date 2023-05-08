@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loading</title>
+    <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <button id="btn-play" onclick="loadpage()">Play</button>
     <div id="maindiv">
-        <img src="Images/DLine1.png" alt="" srcset="" id="Dline1">
-        <img src="Images/DLine2.png" alt="" srcset="" id="Dline2">
-        <img src="Images/o.png" alt="" srcset="" id="o1">
-        <img src="Images/o.png" alt="" srcset="" id="o2">
-        <img src="Images/x.png" alt="" srcset="" id="x1">
-        <img src="Images/x.png" alt="" srcset="" id="x2">
+        <img src="../assets/Images/DLine1.png" alt="" srcset="" id="Dline1">
+        <img src="../assets/Images/DLine2.png" alt="" srcset="" id="Dline2">
+        <img src="../assets/Images/o.png" alt="" srcset="" id="o1">
+        <img src="../assets/Images/o.png" alt="" srcset="" id="o2">
+        <img src="../assets/Images/x.png" alt="" srcset="" id="x1">
+        <img src="../assets/Images/x.png" alt="" srcset="" id="x2">
     </div>
-    <audio src="audio/cut.mp3" id="loadaudio"></audio>
+    <audio src="../assets/audio/cut.mp3" id="loadaudio"></audio>    
+    <div id="page-heading">Tic Tac Toe</div>
+    <div class="pick">
+    </div>
+    <div id="game-set">
+        <div class="row">
+            <div id="0" class="box br bb" onclick="boxclick(this)"></div>
+            <div id="1" class="box br bb bl" onclick="boxclick(this)"></div>
+            <div id="2" class="box bb bl" onclick="boxclick(this)"></div>
+        </div>
+        <div class="row">
+            <div id="3" class="box br bb bt" onclick="boxclick(this)"></div>
+            <div id="4" class="box br bb bl bt" onclick="boxclick(this)"></div>
+            <div id="5" class="box bb bl bt" onclick="boxclick(this)"></div>
+        </div>
+        <div class="row">
+            <div id="6" class="box br bt" onclick="boxclick(this)"></div>
+            <div id="7" class="box br bl bt" onclick="boxclick(this)"></div>
+            <div id="8" class="box bl bt" onclick="boxclick(this)"></div>
+        </div>
+    </div>
+    <div id="win-page">
+        <div id="win-text"></div>
+        <input type="button" id="btn-reset" value="Reset" onclick="refresh()"></input>
+    </div>
 </body>
+<script src="js/app.js"></script>
 <script src="js/loading.js"></script>
+
 </html>
