@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#btn-play{
+    width: 100px;
+    height: 50px;
+    margin: 47.5vh auto;
+    position: absolute;
+    z-index: 2;
+    font-size: xx-large;
+    background-color: white;
+    color: #E45651;
+    font-weight: 800;
+
+}
+#maindiv{
+    margin: auto;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    
+    /* vertical-align: middle; */
+    /* display: none; */
+}
+#Dline1{
+    z-index: 5;
+    margin: auto;
+    position: absolute;
+    /* top: 45%; */
+    margin-top: 44vh;
+    margin-bottom: 45vh;
+    visibility: hidden;
+    
+}
+#Dline2{
+    z-index: 10;
+    margin: auto;
+    position: absolute;
+    /* top: 40%; */
+    margin-top: 36vh;
+    margin-bottom: 36vh;
+    visibility: hidden;
+}
+#o1{
+    z-index: 12;
+    margin: auto;
+    position: absolute;
+    visibility: hidden;
+    top: 38%;
+    left: 51%;
+    /* margin-top: 300px; */
+    /* margin-left: 70px; */
+}
+#o2{
+    z-index: 13;
+    margin: auto;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 430px;
+    margin-left: -80px;
+}
+#x1{
+    z-index: 14;
+    margin: auto;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 330px;
+    margin-left: -110px;
+}
+#x2{
+    z-index: 15;
+    margin: auto;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 51vh;
+    margin-left: 7vw;
+}
