@@ -38,9 +38,9 @@ function showdiv1() {
         document.getElementById("x2").style.visibility = "hidden";
         document.getElementById("o1").style.visibility = "hidden";
         document.getElementById("o2").style.visibility = "hidden";
-        // document.getElementById("page-heading").style.visibility = "visible";
-        // document.getElementById("game-set").style.visibility = "visible";
-        window.location.href = 'home.html';
+        document.getElementById("page-heading").style.visibility = "visible";
+        document.getElementById("game-set").style.visibility = "visible";
+        // window.location.href = 'home.html';
     }, 4000);
     
 
