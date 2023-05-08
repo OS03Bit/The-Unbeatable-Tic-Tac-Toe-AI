@@ -5,7 +5,7 @@ function boxclick(boxid){
     if(box[index] === 0){
         if(count%2 === 0){   
             var img = document.createElement("img");
-            img.src = "../assets/Images/o.png";
+            img.src = "Images/o.png";
             img.style.width = "35px";
             img.style.height = "35px";
             img.style.margin = "4vh auto";
@@ -14,7 +14,7 @@ function boxclick(boxid){
         }
         else{
             var img = document.createElement("img");
-            img.src = "../assets/Images/x.png";
+            img.src = "Images/x.png";
             img.style.width = "35px";
             img.style.height = "35px";
             img.style.margin = "4vh auto";
