@@ -40,7 +40,7 @@ function showdiv1() {
         document.getElementById("o2").style.visibility = "hidden";
         // document.getElementById("page-heading").style.visibility = "visible";
         // document.getElementById("game-set").style.visibility = "visible";
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     }, 4000);
     
 
