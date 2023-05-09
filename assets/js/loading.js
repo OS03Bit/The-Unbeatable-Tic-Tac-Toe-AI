@@ -29,17 +29,17 @@ function showdiv1() {
         audio.play(); 
         // console.log("1");
     }, 3000);
-    setTimeout(function () {
-        document.getElementById("Dline1").style.visibility = "hidden";
-        document.getElementById("Dline2").style.visibility = "hidden";
-        document.getElementById("x1").style.visibility = "hidden";
-        document.getElementById("x2").style.visibility = "hidden";
-        document.getElementById("o1").style.visibility = "hidden";
-        document.getElementById("o2").style.visibility = "hidden";
-        document.getElementById("page-heading").style.visibility = "visible";
-        document.getElementById("game-set").style.visibility = "visible";
+    // setTimeout(function () {
+    //     document.getElementById("Dline1").style.visibility = "hidden";
+    //     document.getElementById("Dline2").style.visibility = "hidden";
+    //     document.getElementById("x1").style.visibility = "hidden";
+    //     document.getElementById("x2").style.visibility = "hidden";
+    //     document.getElementById("o1").style.visibility = "hidden";
+    //     document.getElementById("o2").style.visibility = "hidden";
+    //     document.getElementById("page-heading").style.visibility = "visible";
+    //     document.getElementById("game-set").style.visibility = "visible";
         
-    }, 4000);
+    // }, 4000);
     
 
 }
