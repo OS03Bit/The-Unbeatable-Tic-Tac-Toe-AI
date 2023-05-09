@@ -25,8 +25,6 @@ function showdiv1() {
         document.getElementById("x2").style.visibility = "visible";
         document.getElementById("o1").style.visibility = "visible";
         document.getElementById("o2").style.visibility = "visible";
-
-        
         // document.getElementById('Dline2').style.display = "content";
         audio.play(); 
         // console.log("1");
@@ -40,7 +38,7 @@ function showdiv1() {
         document.getElementById("o2").style.visibility = "hidden";
         document.getElementById("page-heading").style.visibility = "visible";
         document.getElementById("game-set").style.visibility = "visible";
-        // window.location.href = 'home.html';
+        
     }, 4000);
     
 
